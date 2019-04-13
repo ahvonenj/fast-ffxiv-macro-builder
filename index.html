@@ -19,7 +19,7 @@
 							<input placeholder="Ability name" id="ability_search" type="text">
 							<label for="ability_search">Search</label>
 							<a class="waves-effect waves-light btn" id = "ability_search_clear">Clear</a>
-							<a class="waves-effect waves-light btn" id = "ability_filter">Filter useless</a>
+							<a class="waves-effect waves-light btn red" id = "ability_filter">Filter useless</a>
 						</div>
 						<ul class="collection" id="ability-collection">
 
@@ -182,6 +182,17 @@
 				filterUseless = !filterUseless;
 				$abilitySearch.value = '';
 				populateAbilities(abilityList);
+
+				if(filterUseless)
+				{
+					document.querySelector('#ability_filter').classList.remove('red');
+					document.querySelector('#ability_filter').classList.add('green');
+				}
+				else
+				{
+					document.querySelector('#ability_filter').classList.remove('green');
+					document.querySelector('#ability_filter').classList.add('red');
+				}
 			});
 
 			var elems = document.querySelectorAll('.modal');
