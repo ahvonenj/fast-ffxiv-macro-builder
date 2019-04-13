@@ -32,8 +32,19 @@
 						<span class="card-title">Macro output</span>
           				<textarea id="macro_output" class="materialize-textarea" ></textarea>
           				<a class="waves-effect waves-light btn" id = "ability_output_clear">Clear</a>
+          				<a class="waves-effect waves-light btn" id = "ability_output_copy">Copy</a>
 					</div>
 				</div>
+			</div>
+		</div>
+
+		<div id="copymodal" class="modal">
+			<div class="modal-content">
+				<h4>Copied!</h4>
+				<p>Macro output has been copied.</p>
+			</div>
+			<div class="modal-footer">
+				<a href="#!" class="modal-close waves-effect waves-green btn-flat">Ok</a>
 			</div>
 		</div>
 
@@ -138,11 +149,24 @@
 				$macroOutput.dispatchEvent(evt);
 			});
 
+			document.querySelector('#ability_output_copy').addEventListener('click', function(e)
+			{
+				$macroOutput.select();
+				document.execCommand("copy");
+				$macroOutput.selectionStart = 0;
+				$macroOutput.selectionEnd = 0;
+
+				instances[0].open();
+			});
+
 			document.querySelector('#ability_search_clear').addEventListener('click', function(e)
 			{
 				$abilitySearch.value = '';
 				populateAbilities(abilityList);
 			});
+
+			var elems = document.querySelectorAll('.modal');
+    		var instances = M.Modal.init(elems);
 
 		</script>
 	</body>
