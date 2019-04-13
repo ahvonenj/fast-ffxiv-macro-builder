@@ -1,4 +1,47 @@
-.electro
+#ability-collection
 {
-	background-color: #2f3640;
+	height: 800px;
+    overflow-y: auto;
+}
+
+.collection-item
+{
+	position: relative;
+}
+
+.ability_name
+{
+	margin-left: 15px;
+
+	position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    color: #000;
+    font-size: 14pt;
+}
+
+.ability_name:hover, .ability_icon:hover
+{
+	cursor: pointer;
+}
+
+#ability_search
+{
+	color: #f5f6fa;
+}
+
+::placeholder
+{
+	color: #dcdde1;
+}
+
+label[for="ability_search"]
+{
+	color: white;
+}
+
+textarea.materialize-textarea
+{
+	color: white;
 }
