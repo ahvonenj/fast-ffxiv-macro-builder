@@ -1,0 +1,1 @@
+# Fast ffxiv macro builder
