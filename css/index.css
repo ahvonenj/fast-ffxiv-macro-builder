@@ -1,6 +1,8 @@
 #ability-collection
 {
-	height: 800px;
+	max-height: 800px;
+    min-height: 200px;
+    height: 83vh;
     overflow-y: auto;
 }
 
