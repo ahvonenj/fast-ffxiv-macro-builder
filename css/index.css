@@ -9,6 +9,13 @@
 	position: relative;
 }
 
+.ability_item:hover
+{
+	cursor: pointer;
+	background-color: #dcdde1;
+	transition: all 100ms linear;
+}
+
 .ability_name
 {
 	margin-left: 15px;
@@ -21,10 +28,10 @@
     font-size: 14pt;
 }
 
-.ability_name:hover, .ability_icon:hover
+/*.ability_name:hover, .ability_icon:hover
 {
 	cursor: pointer;
-}
+}*/
 
 #ability_search
 {
@@ -44,4 +51,15 @@ label[for="ability_search"]
 textarea.materialize-textarea
 {
 	color: white;
+}
+
+.noselect 
+{
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
 }
