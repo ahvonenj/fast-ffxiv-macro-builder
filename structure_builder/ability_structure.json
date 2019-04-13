@@ -1,0 +1,387 @@
+{
+  "advanced_touch": {
+    "id": "advanced_touch",
+    "name": "Advanced Touch",
+    "icon": "advanced_touch.png",
+    "cp": "0",
+    "wait": 3
+  },
+  "basic_synthesis": {
+    "id": "basic_synthesis",
+    "name": "Basic Synthesis",
+    "icon": "basic_synthesis.png",
+    "cp": "0",
+    "wait": 3
+  },
+  "basic_touch": {
+    "id": "basic_touch",
+    "name": "Basic Touch",
+    "icon": "basic_touch.png",
+    "cp": "0",
+    "wait": 3
+  },
+  "brand_of_earth": {
+    "id": "brand_of_earth",
+    "name": "Brand of Earth",
+    "icon": "brand_of_earth.png",
+    "cp": "0",
+    "wait": 2
+  },
+  "brand_of_fire": {
+    "id": "brand_of_fire",
+    "name": "Brand of Fire",
+    "icon": "brand_of_fire.png",
+    "cp": "0",
+    "wait": 2
+  },
+  "brand_of_ice": {
+    "id": "brand_of_ice",
+    "name": "Brand of Ice",
+    "icon": "brand_of_ice.png",
+    "cp": "0",
+    "wait": 2
+  },
+  "brand_of_lightning": {
+    "id": "brand_of_lightning",
+    "name": "Brand of Lightning",
+    "icon": "brand_of_lightning.png",
+    "cp": "0",
+    "wait": 2
+  },
+  "brand_of_water": {
+    "id": "brand_of_water",
+    "name": "Brand of Water",
+    "icon": "brand_of_water.png",
+    "cp": "0",
+    "wait": 2
+  },
+  "brand_of_wind": {
+    "id": "brand_of_wind",
+    "name": "Brand of Wind",
+    "icon": "brand_of_wind.png",
+    "cp": "0",
+    "wait": 2
+  },
+  "byregot's_blessing": {
+    "id": "byregot's_blessing",
+    "name": "Byregot's Blessing",
+    "icon": "byregot's_blessing.png",
+    "cp": "0",
+    "wait": 3
+  },
+  "byregot's_brow": {
+    "id": "byregot's_brow",
+    "name": "Byregot's Brow",
+    "icon": "byregot's_brow.png",
+    "cp": "0",
+    "wait": 3
+  },
+  "careful_synthesis": {
+    "id": "careful_synthesis",
+    "name": "Careful Synthesis",
+    "icon": "careful_synthesis.png",
+    "cp": "0",
+    "wait": 3
+  },
+  "careful_synthesis_ii": {
+    "id": "careful_synthesis_ii",
+    "name": "Careful Synthesis II",
+    "icon": "careful_synthesis_ii.png",
+    "cp": "0",
+    "wait": 3
+  },
+  "careful_synthesis_iii": {
+    "id": "careful_synthesis_iii",
+    "name": "Careful Synthesis III",
+    "icon": "careful_synthesis_iii.png",
+    "cp": "0",
+    "wait": 3
+  },
+  "collectable_synthesis": {
+    "id": "collectable_synthesis",
+    "name": "Collectable Synthesis",
+    "icon": "collectable_synthesis.png",
+    "cp": "0",
+    "wait": 3
+  },
+  "comfort_zone": {
+    "id": "comfort_zone",
+    "name": "Comfort Zone",
+    "icon": "comfort_zone.png",
+    "cp": "0",
+    "wait": 2
+  },
+  "flawless_synthesis": {
+    "id": "flawless_synthesis",
+    "name": "Flawless Synthesis",
+    "icon": "flawless_synthesis.png",
+    "cp": "0",
+    "wait": 3
+  },
+  "focused_synthesis": {
+    "id": "focused_synthesis",
+    "name": "Focused Synthesis",
+    "icon": "focused_synthesis.png",
+    "cp": "0",
+    "wait": 3
+  },
+  "focused_touch": {
+    "id": "focused_touch",
+    "name": "Focused Touch",
+    "icon": "focused_touch.png",
+    "cp": "0",
+    "wait": 3
+  },
+  "great_strides": {
+    "id": "great_strides",
+    "name": "Great Strides",
+    "icon": "great_strides.png",
+    "cp": "0",
+    "wait": 2
+  },
+  "hasty_touch": {
+    "id": "hasty_touch",
+    "name": "Hasty Touch",
+    "icon": "hasty_touch.png",
+    "cp": "0",
+    "wait": 3
+  },
+  "hasty_touch_ii": {
+    "id": "hasty_touch_ii",
+    "name": "Hasty Touch II",
+    "icon": "hasty_touch_ii.png",
+    "cp": "0",
+    "wait": 3
+  },
+  "ingenuity": {
+    "id": "ingenuity",
+    "name": "Ingenuity",
+    "icon": "ingenuity.png",
+    "cp": "0",
+    "wait": 2
+  },
+  "ingenuity_ii": {
+    "id": "ingenuity_ii",
+    "name": "Ingenuity II",
+    "icon": "ingenuity_ii.png",
+    "cp": "0",
+    "wait": 2
+  },
+  "initial_preparations": {
+    "id": "initial_preparations",
+    "name": "Initial Preparations",
+    "icon": "initial_preparations.png",
+    "cp": "0",
+    "wait": 3
+  },
+  "inner_quiet": {
+    "id": "inner_quiet",
+    "name": "Inner Quiet",
+    "icon": "inner_quiet.png",
+    "cp": "0",
+    "wait": 2
+  },
+  "innovation": {
+    "id": "innovation",
+    "name": "Innovation",
+    "icon": "innovation.png",
+    "cp": "0",
+    "wait": 2
+  },
+  "maker's_mark": {
+    "id": "maker's_mark",
+    "name": "Maker's Mark",
+    "icon": "maker's_mark.png",
+    "cp": "0",
+    "wait": 2
+  },
+  "manipulation": {
+    "id": "manipulation",
+    "name": "Manipulation",
+    "icon": "manipulation.png",
+    "cp": "0",
+    "wait": 2
+  },
+  "manipulation_ii": {
+    "id": "manipulation_ii",
+    "name": "Manipulation II",
+    "icon": "manipulation_ii.png",
+    "cp": "0",
+    "wait": 2
+  },
+  "master's_mend": {
+    "id": "master's_mend",
+    "name": "Master's Mend",
+    "icon": "master's_mend.png",
+    "cp": "0",
+    "wait": 2
+  },
+  "master's_mend_ii": {
+    "id": "master's_mend_ii",
+    "name": "Master's Mend II",
+    "icon": "master's_mend_ii.png",
+    "cp": "0",
+    "wait": 2
+  },
+  "muscle_memory": {
+    "id": "muscle_memory",
+    "name": "Muscle Memory",
+    "icon": "muscle_memory.png",
+    "cp": "0",
+    "wait": 2
+  },
+  "name_of_earth": {
+    "id": "name_of_earth",
+    "name": "Name of Earth",
+    "icon": "name_of_earth.png",
+    "cp": "0",
+    "wait": 2
+  },
+  "name_of_fire": {
+    "id": "name_of_fire",
+    "name": "Name of Fire",
+    "icon": "name_of_fire.png",
+    "cp": "0",
+    "wait": 2
+  },
+  "name_of_ice": {
+    "id": "name_of_ice",
+    "name": "Name of Ice",
+    "icon": "name_of_ice.png",
+    "cp": "0",
+    "wait": 2
+  },
+  "name_of_lightning": {
+    "id": "name_of_lightning",
+    "name": "Name of Lightning",
+    "icon": "name_of_lightning.png",
+    "cp": "0",
+    "wait": 2
+  },
+  "name_of_the_wind": {
+    "id": "name_of_the_wind",
+    "name": "Name of the Wind",
+    "icon": "name_of_the_wind.png",
+    "cp": "0",
+    "wait": 2
+  },
+  "name_of_water": {
+    "id": "name_of_water",
+    "name": "Name of Water",
+    "icon": "name_of_water.png",
+    "cp": "0",
+    "wait": 2
+  },
+  "observe": {
+    "id": "observe",
+    "name": "Observe",
+    "icon": "observe.png",
+    "cp": "0",
+    "wait": 3
+  },
+  "patient_touch": {
+    "id": "patient_touch",
+    "name": "Patient Touch",
+    "icon": "patient_touch.png",
+    "cp": "0",
+    "wait": 3
+  },
+  "piece_by_piece": {
+    "id": "piece_by_piece",
+    "name": "Piece By Piece",
+    "icon": "piece_by_piece.png",
+    "cp": "0",
+    "wait": 3
+  },
+  "precise_touch": {
+    "id": "precise_touch",
+    "name": "Precise Touch",
+    "icon": "precise_touch.png",
+    "cp": "0",
+    "wait": 3
+  },
+  "prudent_touch": {
+    "id": "prudent_touch",
+    "name": "Prudent Touch",
+    "icon": "prudent_touch.png",
+    "cp": "0",
+    "wait": 3
+  },
+  "rapid_synthesis": {
+    "id": "rapid_synthesis",
+    "name": "Rapid Synthesis",
+    "icon": "rapid_synthesis.png",
+    "cp": "0",
+    "wait": 3
+  },
+  "rapid_synthesis_ii": {
+    "id": "rapid_synthesis_ii",
+    "name": "Rapid Synthesis II",
+    "icon": "rapid_synthesis_ii.png",
+    "cp": "0",
+    "wait": 3
+  },
+  "reclaim": {
+    "id": "reclaim",
+    "name": "Reclaim",
+    "icon": "reclaim.png",
+    "cp": "0",
+    "wait": 2
+  },
+  "rumination": {
+    "id": "rumination",
+    "name": "Rumination",
+    "icon": "rumination.png",
+    "cp": "0",
+    "wait": 2
+  },
+  "standard_synthesis": {
+    "id": "standard_synthesis",
+    "name": "Standard Synthesis",
+    "icon": "standard_synthesis.png",
+    "cp": "0",
+    "wait": 3
+  },
+  "standard_touch": {
+    "id": "standard_touch",
+    "name": "Standard Touch",
+    "icon": "standard_touch.png",
+    "cp": "0",
+    "wait": 3
+  },
+  "steady_hand": {
+    "id": "steady_hand",
+    "name": "Steady Hand",
+    "icon": "steady_hand.png",
+    "cp": "0",
+    "wait": 2
+  },
+  "steady_hand_ii": {
+    "id": "steady_hand_ii",
+    "name": "Steady Hand II",
+    "icon": "steady_hand_ii.png",
+    "cp": "0",
+    "wait": 2
+  },
+  "tricks_of_the_trade": {
+    "id": "tricks_of_the_trade",
+    "name": "Tricks of the Trade",
+    "icon": "tricks_of_the_trade.png",
+    "cp": "0",
+    "wait": 2
+  },
+  "waste_not": {
+    "id": "waste_not",
+    "name": "Waste Not",
+    "icon": "waste_not.png",
+    "cp": "0",
+    "wait": 2
+  },
+  "waste_not_ii": {
+    "id": "waste_not_ii",
+    "name": "Waste Not II",
+    "icon": "waste_not_ii.png",
+    "cp": "0",
+    "wait": 2
+  }
+}
