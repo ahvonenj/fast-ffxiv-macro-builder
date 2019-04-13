@@ -11,6 +11,36 @@ var wait3Abilities =
 	'initial_preparations'
 ]
 
+var uselessAbilities = 
+[
+	'brand_of_earth',
+	'brand_of_fire',
+	'brand_of_ice',
+	'brand_of_lightning',
+	'brand_of_water',
+	'brand_of_wind',
+	'careful_synthesis',
+	'collectable_synthesis',
+	'flawless_synthesis',
+	'name_of_earth',
+	'name_of_fire',
+	'name_of_ice',
+	'name_of_lightning',
+	'name_of_the_wind',
+	'name_of_water',
+	'patient_touch',
+	'precise_touch',
+	'prudent_touch',
+	'rumination',
+	'reclaim',
+	'steady_hand',
+	'focused_touch',
+	'focused_synthesis',
+	'basic_synthesis',
+	'byregot\'s_brow',
+	'maker\'s_mark'
+]
+
 fs.readdir('../res/icon', (err, files) => 
 {
 	files.forEach(file => 
@@ -41,13 +71,22 @@ fs.readdir('../res/icon', (err, files) =>
 		else
 			wait = 2;
 
+		var useless = false;
+
+		if(uselessAbilities.indexOf(id) > -1)
+			useless = true;
+		else
+			useless = false;
+
+
 		var ability = 
 		{
 			"id": id,
 			"name": name,
 			"icon": file,
 			"cp": "0",
-			"wait": wait
+			"wait": wait,
+			'useless': useless
 		}
 
 		abilities[id] = ability;

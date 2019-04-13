@@ -19,6 +19,7 @@
 							<input placeholder="Ability name" id="ability_search" type="text">
 							<label for="ability_search">Search</label>
 							<a class="waves-effect waves-light btn" id = "ability_search_clear">Clear</a>
+							<a class="waves-effect waves-light btn" id = "ability_filter">Filter useless</a>
 						</div>
 						<ul class="collection" id="ability-collection">
 
@@ -89,12 +90,20 @@
 
 				$abiCollection.innerHTML = '';
 
-				for(var key in data)
+				data = Object.values(data).sort(function(a, b) 
 				{
-					if(!data.hasOwnProperty(key))
-						continue;
+					var textA = a.name.toUpperCase();
+					var textB = b.name.toUpperCase();
+					return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
+				});
 
-					var ability = data[key];
+
+				for(var i = 0; i < data.length; i++)
+				{
+					var ability = data[i];
+
+					if(filterUseless && ability.useless)
+						continue;
 
 					$html += '<li class="collection-item ability_item noselect" data-ability="' + ability.id + '">';
 					$html += '<img src="res/icon/' + ability.icon + '" alt="" class="ability_icon noselect" data-ability="' + ability.id + '">';
@@ -161,6 +170,16 @@
 
 			document.querySelector('#ability_search_clear').addEventListener('click', function(e)
 			{
+				$abilitySearch.value = '';
+				populateAbilities(abilityList);
+			});
+
+
+			var filterUseless = false;
+
+			document.querySelector('#ability_filter').addEventListener('click', function(e)
+			{
+				filterUseless = !filterUseless;
 				$abilitySearch.value = '';
 				populateAbilities(abilityList);
 			});
