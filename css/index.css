@@ -7,6 +7,7 @@
 .collection-item
 {
 	position: relative;
+	padding: 0px 20px !important;
 }
 
 .ability_item:hover
@@ -14,6 +15,11 @@
 	cursor: pointer;
 	background-color: #dcdde1;
 	transition: all 100ms linear;
+}
+
+.ability_icon
+{
+	margin-bottom: -5px;
 }
 
 .ability_name
