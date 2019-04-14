@@ -8,7 +8,9 @@ var wait3Abilities =
 	'byregot\'s_blessing',
 	'piece_by_piece',
 	'observe',
-	'initial_preparations'
+	'initial_preparations',
+	'master\'s_mend',
+	'master\'s_mend_ii'
 ]
 
 var uselessAbilities = 

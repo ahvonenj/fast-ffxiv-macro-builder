@@ -244,7 +244,7 @@
     "name": "Master's Mend",
     "icon": "master's_mend.png",
     "cp": "0",
-    "wait": 2,
+    "wait": 3,
     "useless": false
   },
   "master's_mend_ii": {
@@ -252,7 +252,7 @@
     "name": "Master's Mend II",
     "icon": "master's_mend_ii.png",
     "cp": "0",
-    "wait": 2,
+    "wait": 3,
     "useless": false
   },
   "muscle_memory": {
